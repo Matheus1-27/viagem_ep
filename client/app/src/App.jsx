@@ -1,11 +1,9 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 
-function App() {
-  const [count, setCount] = useState(0)
 
+function App() {
+  const [count, setCount] = useState([])
   return (
     <>
       <h1>Inicio do projeto</h1>
@@ -18,6 +16,8 @@ function App() {
           <input type="text" name='fone' id='fone' placeholder='numero de telefone...' />
           <br />
           <button>Enviar</button>
+
+
         </form>
       </div>
     </>
